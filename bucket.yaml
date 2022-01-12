@@ -1,0 +1,11 @@
+apiVersion: storage.cnrm.cloud.google.com/v1beta1
+kind: StorageBucket
+metadata:
+  name: adamdoes-bucket-123456789
+  namespace: config-control
+spec:
+  location: us-central1
+  storageClass: standard
+  uniformBucketLevelAccess: true
+  versioning:
+    enabled: false
